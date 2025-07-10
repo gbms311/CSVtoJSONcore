@@ -15,6 +15,7 @@ Simple REST API which converts a delimited payload (via HTTP POST) to a JSON obj
 
 
 ## Examples and Usage
+POST to https://<your-web-app-service-fqdn>/csvtojson
 Optional querystring parameter to allow consumers to specify the delimiter being used in the text file and allows for other delimiters (such as | or ;).  Usage is:
 
 mydomain.com/myservice/?delimiter=|
@@ -24,7 +25,7 @@ If no delimiter parameter is provided, comma is assumed.
 Example test through Postman or REST plugin in VSCode:
 
 ```
-POST https://SOME-WEBSITE-URL/csvtojson
+POST https://<your-web-app-service-fqdn>/csvtojson
 Content-Type: text/csv
 
 this,is,a,test
@@ -53,7 +54,6 @@ Results should appear similar to the following:
 }
 
 ```
-Additional examples can be found in the `test` folder.
 
 ## Azure Deployment Instructions
 If you are deploying to Azure, the following are steps you can use to re-use/leverage the existing CI/CD pipeline defined in the GitHub Actions YML files which already exist in this repo:

@@ -51,9 +51,9 @@
         },
         "repoURL": {
             "type": "string",
-            "defaultValue": "https://github.com/joelbyford/CSVtoJSONcore.git",
+            "defaultValue": "https://github.com/gbms311/CSVtoJSONcore.git",
             "metadata": {
-                "description": "The URL for the GitHub repository *CHANGE IF YOU HAVE FORKED THIS REPO*."
+                "description": "The URL for the GitHub repository"
             }
         },
         "branch": {
