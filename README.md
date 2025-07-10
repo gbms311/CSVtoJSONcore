@@ -1,4 +1,5 @@
-[![Test on Pull Request to Main](https://github.com/joelbyford/CSVtoJSONcore/actions/workflows/main-pr.yml/badge.svg)](https://github.com/joelbyford/CSVtoJSONcore/actions/workflows/main-pr.yml) [![Deploy on Push to Main](https://github.com/joelbyford/CSVtoJSONcore/actions/workflows/main-push.yml/badge.svg)](https://github.com/joelbyford/CSVtoJSONcore/actions/workflows/main-push.yml)
+This is a clone of https://github.com/joelbyford/CSVtoJSONcore
+
 
 **WARNING: GitHub Actions (build pipelines) will ONLY work if deploying to a paid App Service SKU that supports deployment slots.  If you choose a Free F1 SKU you will need to fork and change all GitHub Actions.  Please see the Deployment Instructions later in this Readme for how to create the required deployment slots.**
 
@@ -101,7 +102,10 @@ The Authorized Users are simply stored in a json file in the following format:
 ```
 
 ## Lineage and Credit
-This is a psudo-fork dotnet core implementation of the previous .NET Framework [CSVtoJSON](https://github.com/jeffhollan/CSVtoJSON) repo provided by Jeff Hollan. 
 
-Additionally, many thanks go to Josh Close for his [CsvHelper](https://github.com/JoshClose/CsvHelper) package used in this project.
+This is a clone of https://github.com/joelbyford/CSVtoJSONcore
+
+Which is a psudo-fork dotnet core implementation of the previous .NET Framework [CSVtoJSON](https://github.com/jeffhollan/CSVtoJSON) repo provided by Jeff Hollan. 
+
+Additionally, credit goes go to Josh Close for his [CsvHelper](https://github.com/JoshClose/CsvHelper) package used in https://github.com/joelbyford/CSVtoJSONcore project.
 
