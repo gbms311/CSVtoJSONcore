@@ -4,7 +4,7 @@
     "parameters": {
         "siteName": {
             "type": "string",
-            "defaultValue": "[concat('WebApp-', uniqueString(resourceGroup().id))]",
+            "defaultValue": "WebApp-CSV2JSON",
             "metadata": {
                 "description": "The name of the WebApp/ApiApp being deployed"
             }

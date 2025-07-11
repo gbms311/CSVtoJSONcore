@@ -3,7 +3,7 @@ This is a clone of https://github.com/joelbyford/CSVtoJSONcore
 
 **WARNING: GitHub Actions (build pipelines) will ONLY work if deploying to a paid App Service SKU that supports deployment slots.  If you choose a Free F1 SKU you will need to fork and change all GitHub Actions.  Please see the Deployment Instructions later in this Readme for how to create the required deployment slots.**
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjoelbyford%2FCSVtoJSONcore%2Frefs%2Fheads%2Fmain%2FDeployTemplates%2FAzureLinuxWebAppArm.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fgbms311%2FCSVtoJSONcore%2Frefs%2Fheads%2Fmain%2FDeployTemplates%2FAzureLinuxWebAppArm.json)
 
 
 
